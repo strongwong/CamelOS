@@ -22,7 +22,7 @@ void vListInit(List_t * const pxList)
 	pxList->xListEnd.pxNext = (ListNode_t *)&(pxList->xListEnd);  //将最后一个节点的pxNext和pxPrevious指针均指向节点自身，表示链表为空
 	pxList->xListEnd.pxPrevious = (ListNode_t *)&(pxList->xListEnd);
 	
-	pxList->uxNumbleOfNodes = (UBaseType_t) 0U;	//初始化链表节点计数器的值为0，表示链表为空
+	pxList->uxNumberOfNodes = (UBaseType_t) 0U;	//初始化链表节点计数器的值为0，表示链表为空
 }
 
 // 将节点插入到链表的尾部
@@ -39,7 +39,7 @@ void vListInsertEnd( List_t * const pxList, ListNode_t * const pxNewListNode )
 	pxNewListNode->pvContainer = (void *) pxList;
 	
 	// 该链表节点计数器 ++ 自增
-	( pxList->uxNumbleOfNodes )++;
+	( pxList->uxNumberOfNodes )++;
 }
 
 // 将节点按照升序排列插入到链表
@@ -75,7 +75,7 @@ void vListInsert( List_t * const pxList, ListNode_t * const pxNewListNode )
     pxNewListNode->pvContainer = (void *) pxList;
     
     // 链表节点计数器
-    ( pxList->uxNumbleOfNodes ) ++;	
+    ( pxList->uxNumberOfNodes ) ++;	
 }
 
 // 将节点从链表中删除
@@ -97,10 +97,10 @@ UBaseType_t uxListRemove( ListNode_t * const pxNodeToRemove )
     pxNodeToRemove->pvContainer = NULL;
     
     // 链表节点计数器
-    ( pxList->uxNumbleOfNodes ) ++;
+    ( pxList->uxNumberOfNodes ) ++;
     
     // 返回链表中剩余节点的个数
-    return pxList->uxNumbleOfNodes;
+    return pxList->uxNumberOfNodes;
 }
 
 

@@ -39,19 +39,21 @@ void TaskSwitching_example(void)
                                        "Task1_Entry",
                                        TASK1_STACK_SIZE,
                                        NULL,
+									   1,
                                        Task1Stack,
                                        &Task1TCB );
     
     // 核心就是插入函数 vListInsert, 将任务插入到就绪列表中
-    vListInsert(&pxReadyTasksLists[1], &Task1TCB.xStateListNode);
+//    vListInsert(&pxReadyTasksLists[1], &Task1TCB.xStateListNode);
     
     Task2_Handle = xTaskCreateStatic(  Task2_Entry,
                                        "Task2_Entry",
                                        TASK2_STACK_SIZE,
                                        NULL,
+									   2,
                                        Task2Stack,
                                        &Task2TCB );
-    vListInsert(&pxReadyTasksLists[2], &Task2TCB.xStateListNode);
+//    vListInsert(&pxReadyTasksLists[2], &Task2TCB.xStateListNode);
     
     vTaskStartScheduler();
 }

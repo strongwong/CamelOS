@@ -1,80 +1,0 @@
-Dependencies for Project 'CamelOS', Target 'Target 1': (DO NOT MODIFY !)
-F (..\User\main.c)(0x5D994965)(-c --cpu Cortex-M3 --li -g -O0 --apcs=interwork --split_sections -I ..\CamelRTOS\inc -I ..\CamelRTOS\portable\RVDS\ARM_CM3 -I ..\User\inc -I ..\CamelExample\inc-I.\RTE\_Target_1-ID:\BH6BAO\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-ID:\BH6BAO\Arm\Packs\ARM\CMSIS\5.5.1\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="528" -D_RTE_ -DARMCM3-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
-I (..\CamelExample\inc\TaskSwitching.h)(0x5D7C9DFA)
-I (..\CamelRTOS\inc\camelOS.h)(0x5D7905D6)
-I (..\CamelRTOS\inc\camel_config.h)(0x5DA081A4)
-I (..\CamelRTOS\inc\camel_projdefs.h)(0x5D77B559)
-I (..\CamelRTOS\inc\camel_portable.h)(0x5D7C4395)
-I (..\CamelRTOS\inc\camel_portmacro.h)(0x5DA08020)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
-I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5CEB79E2)
-I (..\CamelRTOS\inc\camel_list.h)(0x5DA07979)
-I (..\CamelRTOS\inc\camel_task.h)(0x5DA07E79)
-F (..\CamelExample\CreatList.c)(0x5D77A874)(-c --cpu Cortex-M3 --li -g -O0 --apcs=interwork --split_sections -I ..\CamelRTOS\inc -I ..\CamelRTOS\portable\RVDS\ARM_CM3 -I ..\User\inc -I ..\CamelExample\inc-I.\RTE\_Target_1-ID:\BH6BAO\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-ID:\BH6BAO\Arm\Packs\ARM\CMSIS\5.5.1\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="528" -D_RTE_ -DARMCM3-o .\objects\creatlist.o --omf_browse .\objects\creatlist.crf --depend .\objects\creatlist.d)
-I (..\CamelRTOS\inc\Camel_list.h)(0x5DA07979)
-I (..\CamelRTOS\inc\camelOS.h)(0x5D7905D6)
-I (..\CamelRTOS\inc\camel_config.h)(0x5DA081A4)
-I (..\CamelRTOS\inc\camel_projdefs.h)(0x5D77B559)
-I (..\CamelRTOS\inc\camel_portable.h)(0x5D7C4395)
-I (..\CamelRTOS\inc\camel_portmacro.h)(0x5DA08020)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
-I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5CEB79E2)
-I (..\CamelExample\inc\CreatList.h)(0x5D77A86C)
-F (..\CamelExample\TaskSwitching.c)(0x5DA08307)(-c --cpu Cortex-M3 --li -g -O0 --apcs=interwork --split_sections -I ..\CamelRTOS\inc -I ..\CamelRTOS\portable\RVDS\ARM_CM3 -I ..\User\inc -I ..\CamelExample\inc-I.\RTE\_Target_1-ID:\BH6BAO\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-ID:\BH6BAO\Arm\Packs\ARM\CMSIS\5.5.1\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="528" -D_RTE_ -DARMCM3-o .\objects\taskswitching.o --omf_browse .\objects\taskswitching.crf --depend .\objects\taskswitching.d)
-I (..\CamelRTOS\inc\camelOS.h)(0x5D7905D6)
-I (..\CamelRTOS\inc\camel_config.h)(0x5DA081A4)
-I (..\CamelRTOS\inc\camel_projdefs.h)(0x5D77B559)
-I (..\CamelRTOS\inc\camel_portable.h)(0x5D7C4395)
-I (..\CamelRTOS\inc\camel_portmacro.h)(0x5DA08020)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
-I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5CEB79E2)
-I (..\CamelRTOS\inc\camel_list.h)(0x5DA07979)
-I (..\CamelRTOS\inc\camel_task.h)(0x5DA07E79)
-F (..\CamelRTOS\portable\RVDS\ARM_CM3\camel_port.c)(0x5DA08213)(-c --cpu Cortex-M3 --li -g -O0 --apcs=interwork --split_sections -I ..\CamelRTOS\inc -I ..\CamelRTOS\portable\RVDS\ARM_CM3 -I ..\User\inc -I ..\CamelExample\inc-I.\RTE\_Target_1-ID:\BH6BAO\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-ID:\BH6BAO\Arm\Packs\ARM\CMSIS\5.5.1\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="528" -D_RTE_ -DARMCM3-o .\objects\camel_port.o --omf_browse .\objects\camel_port.crf --depend .\objects\camel_port.d)
-I (..\CamelRTOS\inc\camelOS.h)(0x5D7905D6)
-I (..\CamelRTOS\inc\camel_config.h)(0x5DA081A4)
-I (..\CamelRTOS\inc\camel_projdefs.h)(0x5D77B559)
-I (..\CamelRTOS\inc\camel_portable.h)(0x5D7C4395)
-I (..\CamelRTOS\inc\camel_portmacro.h)(0x5DA08020)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
-I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5CEB79E2)
-I (..\CamelRTOS\inc\camel_list.h)(0x5DA07979)
-I (..\CamelRTOS\inc\camel_task.h)(0x5DA07E79)
-I (D:\BH6BAO\Arm\Packs\ARM\CMSIS\5.5.1\Device\ARM\ARMCM3\Include\ARMCM3.h)(0x5BBD6B7A)
-I (D:\BH6BAO\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\core_cm3.h)(0x5C8F4DD4)
-I (D:\BH6BAO\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_version.h)(0x5B971444)
-I (D:\BH6BAO\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_compiler.h)(0x5C8F4DD4)
-I (D:\BH6BAO\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_armcc.h)(0x5C8F4DD4)
-I (D:\BH6BAO\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\mpu_armv7.h)(0x5C8F4DD4)
-I (D:\BH6BAO\Arm\Packs\ARM\CMSIS\5.5.1\Device\ARM\ARMCM3\Include\system_ARMCM3.h)(0x5BBD6B7A)
-F (..\CamelRTOS\camel_list.c)(0x5D7905BA)(-c --cpu Cortex-M3 --li -g -O0 --apcs=interwork --split_sections -I ..\CamelRTOS\inc -I ..\CamelRTOS\portable\RVDS\ARM_CM3 -I ..\User\inc -I ..\CamelExample\inc-I.\RTE\_Target_1-ID:\BH6BAO\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-ID:\BH6BAO\Arm\Packs\ARM\CMSIS\5.5.1\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="528" -D_RTE_ -DARMCM3-o .\objects\camel_list.o --omf_browse .\objects\camel_list.crf --depend .\objects\camel_list.d)
-I (..\CamelRTOS\inc\camelOS.h)(0x5D7905D6)
-I (..\CamelRTOS\inc\camel_config.h)(0x5DA081A4)
-I (..\CamelRTOS\inc\camel_projdefs.h)(0x5D77B559)
-I (..\CamelRTOS\inc\camel_portable.h)(0x5D7C4395)
-I (..\CamelRTOS\inc\camel_portmacro.h)(0x5DA08020)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
-I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5CEB79E2)
-I (..\CamelRTOS\inc\camel_list.h)(0x5DA07979)
-I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5CEB79E2)
-F (..\CamelRTOS\camel_task.c)(0x5DA08394)(-c --cpu Cortex-M3 --li -g -O0 --apcs=interwork --split_sections -I ..\CamelRTOS\inc -I ..\CamelRTOS\portable\RVDS\ARM_CM3 -I ..\User\inc -I ..\CamelExample\inc-I.\RTE\_Target_1-ID:\BH6BAO\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-ID:\BH6BAO\Arm\Packs\ARM\CMSIS\5.5.1\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="528" -D_RTE_ -DARMCM3-o .\objects\camel_task.o --omf_browse .\objects\camel_task.crf --depend .\objects\camel_task.d)
-I (..\CamelRTOS\inc\camelOS.h)(0x5D7905D6)
-I (..\CamelRTOS\inc\camel_config.h)(0x5DA081A4)
-I (..\CamelRTOS\inc\camel_projdefs.h)(0x5D77B559)
-I (..\CamelRTOS\inc\camel_portable.h)(0x5D7C4395)
-I (..\CamelRTOS\inc\camel_portmacro.h)(0x5DA08020)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
-I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5CEB79E2)
-I (..\CamelRTOS\inc\camel_list.h)(0x5DA07979)
-I (..\CamelRTOS\inc\camel_task.h)(0x5DA07E79)
-F (..\Doc\Readme.md)(0x5D751542)()
-F (RTE\Device\ARMCM3\startup_ARMCM3.s)(0x5C8B5FFA)(--cpu Cortex-M3 --li -g --apcs=interwork -I.\RTE\_Target_1-ID:\BH6BAO\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-ID:\BH6BAO\Arm\Packs\ARM\CMSIS\5.5.1\Device\ARM\ARMCM3\Include--pd "__UVISION_VERSION SETA 528" --pd "_RTE_ SETA 1" --pd "ARMCM3 SETA 1"--list .\listings\startup_armcm3.lst --xref -o .\objects\startup_armcm3.o --depend .\objects\startup_armcm3.d)
-F (RTE\Device\ARMCM3\system_ARMCM3.c)(0x5C8A247E)(-c --cpu Cortex-M3 --li -g -O0 --apcs=interwork --split_sections -I ..\CamelRTOS\inc -I ..\CamelRTOS\portable\RVDS\ARM_CM3 -I ..\User\inc -I ..\CamelExample\inc-I.\RTE\_Target_1-ID:\BH6BAO\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include-ID:\BH6BAO\Arm\Packs\ARM\CMSIS\5.5.1\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="528" -D_RTE_ -DARMCM3-o .\objects\system_armcm3.o --omf_browse .\objects\system_armcm3.crf --depend .\objects\system_armcm3.d)
-I (D:\BH6BAO\Arm\Packs\ARM\CMSIS\5.5.1\Device\ARM\ARMCM3\Include\ARMCM3.h)(0x5BBD6B7A)
-I (D:\BH6BAO\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\core_cm3.h)(0x5C8F4DD4)
-I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5CEB79E2)
-I (D:\BH6BAO\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_version.h)(0x5B971444)
-I (D:\BH6BAO\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_compiler.h)(0x5C8F4DD4)
-I (D:\BH6BAO\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\cmsis_armcc.h)(0x5C8F4DD4)
-I (D:\BH6BAO\Arm\Packs\ARM\CMSIS\5.5.1\CMSIS\Core\Include\mpu_armv7.h)(0x5C8F4DD4)
-I (D:\BH6BAO\Arm\Packs\ARM\CMSIS\5.5.1\Device\ARM\ARMCM3\Include\system_ARMCM3.h)(0x5BBD6B7A)
