@@ -30,7 +30,7 @@ typedef struct xMINI_LIST_NODE MiniListNode_t;	// 最小节点数据类型定义
 // 链表结构体定义
 typedef struct xLIST
 {
-	UBaseType_t uxNumbleOfNodes;	// 链表节点计数器
+	UBaseType_t uxNumberOfNodes;	// 链表节点计数器
 	ListNode_t * pxIndex;			// 链表节点索引指针
 	MiniListNode_t xListEnd;		// 链表最后一个节点
 } List_t;

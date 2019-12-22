@@ -4,7 +4,15 @@
 //#include "camel_config.h"
 #include "camel_list.h"
 
+#define taskIDLE_PRIORITY		(( UBaseType_t ) 0U )
 #define taskYIELD()   portYIELD()
+
+#define taskENTER_CRITICAL()			portENTER_CRITICAL()
+#define taskENTER_CRITICAL_FROM_ISR()	portSET_INTERRUPT_MASK_FROM_ISR()
+
+#define taskEXIT_CRITICAL()				portEXIT_CRITICAL()
+#define taskEXIT_CRITICAL_FROM_ISR( x )	portEXIT_CRITICAL_FROM_ISR( x )
+
 
 // 定义任务控制块
 typedef struct tskTaskControlBlock
@@ -15,6 +23,8 @@ typedef struct tskTaskControlBlock
     char                    pcTaskName[configMAX_TASK_NAME_LEN]; 
     
     TickType_t              xTicksToDelay;  // 用于延时
+	
+	UBaseType_t				uxPriority;		// 优先级
 } tskTCB;
 
 typedef tskTCB TCB_t;
@@ -30,6 +40,7 @@ TaskHandle_t xTaskCreateStatic( TaskFunction_t pxTaskCode,
                                 const char * const pcName,
                                 const uint32_t ulStackDepth,
                                 void * const pvParameters,
+								UBaseType_t	uxPriority,			
                                 StackType_t * const puxStackBuffer,
                                 TCB_t * const pxTaskBuffer );
 #endif  // configSUPPORT_STATIC_ALLOCATION
@@ -40,6 +51,7 @@ void vTaskSwitchContext(void);
                                 
 void vTaskDelay(const TickType_t xTicksToDelay);
 void xTaskIncrementTick(void);
+
                                 
 #endif // _CAMEL_TASK_H_
 
